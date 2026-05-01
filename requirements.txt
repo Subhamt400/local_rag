@@ -1,0 +1,18 @@
+# Minimal requirements for running local-rag.ipynb with ChromaDB, BM25 and cross-encoder reranker
+numpy
+pandas
+requests
+pymupdf
+tqdm
+spacy
+sentence-transformers
+torch
+transformers
+bitsandbytes
+chromadb
+rank_bm25
+matplotlib
+scikit-learn
+# Optional / GPU helpers
+# flash-attn  # only if your GPU and environment support it
+# faiss-cpu   # optional: if you prefer FAISS for vector store operations
